@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Rany Stephan</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content on Rany Stephan</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 01 Aug 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>My First Note</title>
+      <link>http://localhost:1313/notes/my-first-note/</link>
+      <pubDate>Fri, 01 Aug 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/notes/my-first-note/</guid>
+      <description>&lt;p&gt;This is my first note.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>About</title>
+      <link>http://localhost:1313/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/about/</guid>
+      <description>&lt;p&gt;I am a graduate student at Stanford University pursuing an M.S. in Mathematical and Computational Finance. I have a background in finance, computer science, and applied mathematics from the American University of Beirut. My research interests lie at the intersection of these fields, with a focus on applying quantitative and computational techniques to solve complex financial problems.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>CV</title>
+      <link>http://localhost:1313/cv/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/cv/</guid>
+      <description>&lt;iframe src=&#34;http://localhost:1313/ranystephan_resume.pdf&#34; width=&#34;100%&#34; height=&#34;800px&#34; style=&#34;border: none;&#34;&gt;&lt;/iframe&gt;</description>
+    </item>
+    <item>
+      <title>Projects</title>
+      <link>http://localhost:1313/projects/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/</guid>
+      <description>&lt;h2 id=&#34;projects--competitions&#34;&gt;Projects &amp;amp; Competitions&lt;/h2&gt;&#xA;&lt;h3 id=&#34;winner-murex-best-development-project-award-3000&#34;&gt;Winner, Murex Best Development Project Award ($3,000)&lt;/h3&gt;&#xA;&lt;p&gt;&lt;em&gt;June 2023&lt;/em&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Solely architected and developed &lt;strong&gt;NeuralFin&lt;/strong&gt;, a full-stack financial analysis platform using Python (Django, scikit-learn) for predictive stock modeling and sentiment analysis.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;university-representative-refinitiv-portfolio-management-competition&#34;&gt;University Representative, Refinitiv Portfolio Management Competition&lt;/h3&gt;&#xA;&lt;p&gt;&lt;em&gt;Oct 2023&lt;/em&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Implemented an optimized asset allocation model in &lt;strong&gt;Python&lt;/strong&gt;, using &lt;strong&gt;Markowitz&amp;rsquo;s Efficient Frontier&lt;/strong&gt; and &lt;strong&gt;Conditional Value at Risk (CVaR)&lt;/strong&gt; to maximize risk-adjusted returns.&lt;/li&gt;&#xA;&lt;li&gt;Achieved top-quartile performance managing a $1M mock portfolio against international university teams.&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+    </item>
+    <item>
+      <title>Publications</title>
+      <link>http://localhost:1313/publications/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publications/</guid>
+      <description>&lt;h2 id=&#34;publications&#34;&gt;Publications&lt;/h2&gt;&#xA;&lt;h3 id=&#34;opportunities-for-circular-economy-in-waste-reuse-insights-from-social-media-data-mining&#34;&gt;Opportunities for circular economy in waste reuse: Insights from social media data mining&lt;/h3&gt;&#xA;&lt;p&gt;&lt;em&gt;Journal of Resources, Conservation &amp;amp; Recycling&lt;/em&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Co-author on this publication, where we applied transfer learning on over 10,000 scraped articles to analyze opportunities for a circular economy in waste reuse.&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+    </item>
+    <item>
+      <title>Research</title>
+      <link>http://localhost:1313/research/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/research/</guid>
+      <description>&lt;h2 id=&#34;research-experience&#34;&gt;Research Experience&lt;/h2&gt;&#xA;&lt;h3 id=&#34;graduate-researcher-convex-optimization&#34;&gt;Graduate Researcher, Convex Optimization&lt;/h3&gt;&#xA;&lt;p&gt;&lt;em&gt;Advisor: Prof. Stephen Boyd (Sept 2024 - Present)&lt;/em&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Develop portfolio liquidation strategies using &lt;strong&gt;Model Predictive Control (MPC)&lt;/strong&gt; and &lt;strong&gt;convex optimization&lt;/strong&gt; to minimize implementation shortfall while tracking a benchmark.&lt;/li&gt;&#xA;&lt;li&gt;Engineer a high-fidelity backtesting framework in &lt;strong&gt;Python&lt;/strong&gt; using &lt;strong&gt;CVXPY&lt;/strong&gt;, &lt;strong&gt;Pandas&lt;/strong&gt;, and &lt;strong&gt;NumPy&lt;/strong&gt; to simulate multi-period portfolio transitions under transaction costs and market impact models.&lt;/li&gt;&#xA;&lt;li&gt;Implement efficient numerical methods, including sparse &lt;strong&gt;Cholesky factorization&lt;/strong&gt;, to accelerate optimization solver performance within the simulation environment.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;graduate-researcher-fixed-income-modeling&#34;&gt;Graduate Researcher, Fixed Income Modeling&lt;/h3&gt;&#xA;&lt;p&gt;&lt;em&gt;Advisor: Prof. Darrell Duffie (Dec 2024 - Present)&lt;/em&gt;&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
