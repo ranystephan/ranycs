@@ -2,7 +2,7 @@
 title: "Rany Stephan"
 ---
 
-<img src="{{ "/profile.jpg" | relURL }}" alt="Rany Stephan" style="border-radius: 50%; float: left; margin-right: 20px; width: 150px; height: 150px;">
+{{< profile-image >}}
 
 # Rany Stephan
 
