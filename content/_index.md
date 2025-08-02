@@ -1,9 +1,8 @@
 ---
 title: "Rany Stephan"
-date: 2025-08-01
 ---
 
-<img src="/profile.jpg" alt="Rany Stephan" style="border-radius: 50%; float: left; margin-right: 20px; width: 150px; height: 150px;">
+<img src="{{ "/profile.jpg" | relURL }}" alt="Rany Stephan" style="border-radius: 50%; float: left; margin-right: 20px; width: 150px; height: 150px;">
 
 # Rany Stephan
 
