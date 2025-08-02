@@ -1,1 +1,28 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml"><url><loc>https://ranystephan.github.io/ranycs/notes/my-first-note/</loc><lastmod>2025-08-01T00:00:00+00:00</lastmod></url><url><loc>https://ranystephan.github.io/ranycs/notes/</loc><lastmod>2025-08-01T00:00:00+00:00</lastmod></url><url><loc>https://ranystephan.github.io/ranycs/</loc><lastmod>2025-08-01T00:00:00+00:00</lastmod></url><url><loc>https://ranystephan.github.io/ranycs/about/</loc></url><url><loc>https://ranystephan.github.io/ranycs/categories/</loc></url><url><loc>https://ranystephan.github.io/ranycs/cv/</loc></url><url><loc>https://ranystephan.github.io/ranycs/projects/</loc></url><url><loc>https://ranystephan.github.io/ranycs/publications/</loc></url><url><loc>https://ranystephan.github.io/ranycs/research/</loc></url><url><loc>https://ranystephan.github.io/ranycs/tags/</loc></url></urlset>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://ranystephan.github.io/ranycs/notes/my-first-note/</loc>
+    <lastmod>2025-08-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://ranystephan.github.io/ranycs/notes/</loc>
+    <lastmod>2025-08-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://ranystephan.github.io/ranycs/</loc>
+    <lastmod>2025-08-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://ranystephan.github.io/ranycs/about/</loc>
+  </url><url>
+    <loc>https://ranystephan.github.io/ranycs/categories/</loc>
+  </url><url>
+    <loc>https://ranystephan.github.io/ranycs/cv/</loc>
+  </url><url>
+    <loc>https://ranystephan.github.io/ranycs/projects/</loc>
+  </url><url>
+    <loc>https://ranystephan.github.io/ranycs/publications/</loc>
+  </url><url>
+    <loc>https://ranystephan.github.io/ranycs/research/</loc>
+  </url><url>
+    <loc>https://ranystephan.github.io/ranycs/tags/</loc>
+  </url>
+</urlset>
