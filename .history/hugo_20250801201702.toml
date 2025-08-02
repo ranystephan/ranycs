@@ -1,0 +1,43 @@
+baseURL = 'https://ranystephan.github.io/ranycs'
+languageCode = 'en-us'
+title = 'Rany Stephan'
+theme = "xmin"
+
+[menu]
+  [[menu.main]]
+    name = "Home"
+    url = "/"
+    weight = 1
+  [[menu.main]]
+    name = "CV"
+    url = "/cv/"
+    weight = 2
+  [[menu.main]]
+    name = "About"
+    url = "/about/"
+    weight = 3
+  [[menu.main]]
+    name = "Research"
+    url = "/research/"
+    weight = 4
+  [[menu.main]]
+    name = "Projects"
+    url = "/projects/"
+    weight = 5
+  [[menu.main]]
+    name = "Notes"
+    url = "/notes/"
+    weight = 6
+  [[menu.main]]
+    name = "Publications"
+    url = "/publications/"
+    weight = 7
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
+[caches]
+  [caches.images]
+    dir = ':cacheDir/images'
