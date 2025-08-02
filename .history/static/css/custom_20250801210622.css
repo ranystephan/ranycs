@@ -1,0 +1,11 @@
+/* Custom styles for bio text justification */
+main {
+  text-align: justify;
+}
+
+/* Ensure proper spacing around floated images */
+main::after {
+  content: "";
+  display: table;
+  clear: both;
+} 

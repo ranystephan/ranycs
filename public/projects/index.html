@@ -6,7 +6,7 @@
     <title>Projects | Rany Stephan</title>
     <link rel="stylesheet" href="/ranycs/css/style.css" />
     <link rel="stylesheet" href="/ranycs/css/fonts.css" />
-    
+    <link rel="stylesheet" href="/ranycs/css/custom.css"> 
   </head>
 
   <body>
@@ -38,6 +38,14 @@
 </div>
 
 <main>
+<h2 id="research-projects">Research Projects</h2>
+<h3 id="two-level-learning-augmented-caching-for-long-context-llm-inference">Two-Level Learning-Augmented Caching for Long-Context LLM Inference</h3>
+<p><em>2024</em></p>
+<ul>
+<li><strong>Research Paper</strong>: <a href="/cs264project_research_final.pdf">Two-Level Learning-Augmented Caching for Long-Context LLM Inference: A Beyond Worst-Case Analysis</a></li>
+<li><strong>Authors</strong>: Rany Stephan (Stanford University)</li>
+<li><strong>Abstract</strong>: Large Language Models (LLMs) with extended context windows face a critical challenge: recent empirical studies show accuracy degradation in multi-turn conversations compared to single-turn settings, even within the model&rsquo;s context limit. We formalize this long-chat degradation as a hierarchical online caching problem and introduce LATEM (Learning-Augmented Two-level Marking), a learning-augmented algorithm that manages both message-level and token-level caches. We prove that LATEM achieves consistency ratio 2 + O(η/OPT) when predictions have error η, and O(log km + log k′t/ε)-robustness in the worst case, where km is the message cache size, k′t = ⌊kt/km⌋ is the effective token cache per message, and ε is the trust parameter. Our analysis extends the learning-augmented framework to hierarchical caches with interdependent eviction decisions, offering, to our knowledge, the first formal consistency–robustness guarantees for hierarchical KV-cache management in LLMs.</li>
+</ul>
 <h2 id="projects--competitions">Projects &amp; Competitions</h2>
 <h3 id="winner-murex-best-development-project-award-3000">Winner, Murex Best Development Project Award ($3,000)</h3>
 <p><em>June 2023</em></p>

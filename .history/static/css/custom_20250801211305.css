@@ -1,0 +1,23 @@
+/* Custom styles for bio text justification */
+main {
+  text-align: justify;
+}
+
+/* Ensure proper spacing around floated images */
+main::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Specific styling for bio text */
+main p:first-of-type {
+  text-align: justify;
+  line-height: 1.6;
+}
+
+/* Bio text class styling */
+.bio-text {
+  text-align: justify;
+  line-height: 1.6;
+} 
