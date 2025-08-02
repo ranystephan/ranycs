@@ -1,4 +1,4 @@
-baseURL = 'https://ranystephan.github.io/ranycs/'
+baseURL = '/ranycs/'
 languageCode = 'en-us'
 title = 'Rany Stephan'
 theme = "xmin"
