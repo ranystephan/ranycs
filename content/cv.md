@@ -2,4 +2,4 @@
 title: "CV"
 ---
 
-{{< my_pdf_embedder "/ranystephan_resume.pdf" >}}
+{{< my_pdf_embedder "/Resume.pdf" >}}
