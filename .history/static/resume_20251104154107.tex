@@ -1,0 +1,189 @@
+\documentclass[letterpaper,10.99pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\input{glyphtounicode}
+\usepackage{ragged2e}
+
+%----------FONT OPTIONS----------
+\usepackage[default]{helvet} % A clean, modern, and ATS-friendly sans-serif font
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins to maximize space without sacrificing readability
+\addtolength{\oddsidemargin}{-0.7in}
+\addtolength{\evensidemargin}{-0.7in}
+\addtolength{\textwidth}{1.2in}
+\addtolength{\topmargin}{-.8in}
+\addtolength{\textheight}{1.6in}
+
+\urlstyle{same}
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-10pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands for consistent and clean formatting
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small\textbf{#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{document}
+
+%----------HEADING----------
+% Optimized for scannability and ATS parsing
+\begin{center}
+  \textbf{\Huge \scshape Rany Stephan} \\ \vspace{7pt}
+  \href{mailto:ranycs@stanford.edu}{ranycs@stanford.edu} $|$ (650) 509-9057 $|$ 
+  \href{https://www.linkedin.com/in/ranystephan}{linkedin.com/in/ranystephan} $|$
+  \href{https://github.com/ranystephan}{github.com/ranystephan}
+\end{center}
+
+%-----------EDUCATION-----------
+\section{Education}
+\resumeSubHeadingListStart
+  \resumeSubheading
+    {Stanford University}{Expected June 2026}
+    {M.S. in Mathematical and Computational Engineering}{Stanford, CA}
+    \resumeItemListStart
+        \resumeItem{Coursework: Convex Optimization, Numerical Linear Algebra, Stochastic Differential Equations, Beyond Worst-Case Analysis, Mathematical Finance, Advanced Probability and Statistics, Parallel Computing, Deep Reinforcement Learning}
+        \resumeItem{Presented my \textbf{HExIF} project at the \textbf{ICME Research Symposium}}
+    \resumeItemListEnd
+  \resumeSubheading
+    {American University of Beirut}{June 2024}
+    {B.B.A. Finance \& B.Sc. Computer Science (Dual Degree), Minor in Applied Mathematics}{Beirut, Lebanon}
+    \resumeItemListStart
+        \resumeItem{\textbf{Honors:} Dean's Honors List $|$ \textbf{Major GPA: 4.00/4.00}}
+        \resumeItem{\textbf{Thesis:} Leveraged NLP and Generative Models for Financial Analysis in MENA, addressing Data Scarcity.}
+        \resumeItem{\textbf{Extracurricular:} Model United Nations in NYC, 2x National Gold Medalist in Brazilian Jiu-Jitsu.}
+    \resumeItemListEnd
+\resumeSubHeadingListEnd
+
+%-----------EXPERIENCE-----------
+\section{Research Experience}
+\resumeSubHeadingListStart
+    \resumeSubheading
+      {Graduate Researcher, Convex Optimization}{June 2025 -- Present}
+      {Advisor: Prof. Stephen Boyd}{Stanford, CA}
+      \resumeItemListStart
+        \resumeItem{Develop portfolio transition strategies using \textbf{Model Predictive Control (MPC)} and \textbf{convex optimization} to minimize implementation shortfall while tracking a benchmark. \textbf{Manuscript in progress}.}
+        \resumeItem{Engineer a high-fidelity backtesting framework in \textbf{Python} using \textbf{CVXPY}, \textbf{Pandas}, and \textbf{NumPy} to simulate multi-period portfolio transitions under transaction costs and market impact models.}
+        \resumeItem{Implement efficient numerical methods, including sparse Cholesky factorization and risk factor models to accelerate optimization solver performance within the simulation environment.}
+      \resumeItemListEnd
+    \resumeSubheading
+      {Graduate Researcher, Fixed Income Modeling}{Dec 2024 -- Present}
+      {Advisor: Prof. Darrell Duffie}{Stanford, CA}
+      \resumeItemListStart
+        \resumeItem{Model off-the-run bond inventories and dealer behavior by formulating and solving \textbf{Hamilton-Jacobi-Bellman (HJB) equations} to derive analytically-grounded optimal control. \textbf{Manuscript in progress}.}
+        \resumeItem{Develop dynamic market equilibrium experiments in \textbf{Python} and \textbf{Julia}, providing actionable insights for bond market structure and liquidity analysis.}
+      \resumeItemListEnd
+    \resumeSubheading
+      {Graduate Researcher, AI and ML in Computational Pathology}{Jan 2025 -- Present}
+      {Advisor: Dr. Andrew Gentles}{Stanford, CA}
+      \resumeItemListStart
+        \resumeItem{Lead development of HExIF, an end-to-end \textbf{PyTorch} pipeline that generates virtual multiplex immunofluorescence images from H\&E stains, reducing analysis time and cost. \textbf{Manuscript in preparation}.}
+        \resumeItem{Architect and train conditional GANs (\textbf{pix2pix}) and multi-task \textbf{U-Net} models to synthesize fluorescence intensity maps and cell segmentation masks from histopathology inputs.}
+      \resumeItemListEnd
+    \resumeSubheading
+      {Research Assistant, Machine Learning, NLP \& Time-Series Analysis}{Sept 2022 -- Aug 2024}
+      {American University of Beirut}{Beirut, Lebanon}
+      \resumeItemListStart
+        \resumeItem{\textbf{Co-author} in "Opportunities for circular economy in waste reuse: Insights from social media data mining", journal of Resources, Conservation \& Recycling. Applying transfer learning on 10,000+ scraped articles.}
+        \resumeItem{Engineered regression models to quantify equity price delay and conducted a 20-year sentiment-based time-series analysis of 1,200+ financial reports, identifying signals of market inefficiency.}
+        \resumeItem{Fine-tuned a MobileNetV2 image classifier in \textbf{TensorFlow}, improving accuracy by \textbf{15\%} on specialized datasets for a co-authored publication on waste reuse analysis.}
+      \resumeItemListEnd
+\resumeSubHeadingListEnd
+
+%-----------PROJECTS & COMPETITIONS-----------
+\section{Projects \& Competitions}
+\resumeSubHeadingListStart
+    \resumeProjectHeading
+        {Teaching Assistant, Stanford MLab (ACM Machine Learning Lab)}{Oct 2025 -- Present}
+        \resumeItemListStart
+          \resumeItem{Advise and participate with student teams on SemEval-2026 (e.g., Task 8: multi-turn RAG evaluation; Task 3: DimABSA; Task 2: temporal emotion modeling), emphasizing rigorous evaluation and clean computational semantics pipelines.}
+        \resumeItemListEnd
+    \resumeProjectHeading
+        {Winner, Murex Best Development Project Award (\$3,000)}{June 2023}
+        \resumeItemListStart
+          \resumeItem{\textbf{NeuralFin:} full-stack research platform (Django, Python) for \textbf{predictive signals} with data ingestion, feature engineering, cross-validation, and backtest reporting; designed for fast \textbf{iterate→evaluate→ship} loops.}
+        
+    \resumeItemListEnd
+    \resumeProjectHeading
+        {University Representative, Refinitiv Portfolio Management Competition}{Oct 2023}
+        \resumeItemListStart
+          \resumeItem{Built allocation engine using \textbf{Markowitz + CVaR}, with periodic rebalancing and risk constraints; achieved top-quartile results managing a \$1M mock portfolio.}
+    \resumeItemListEnd
+\resumeSubHeadingListEnd
+
+%-----------PROFESSIONAL EXPERIENCE-----------
+\section{Professional Experience}
+\resumeSubHeadingListStart
+    \resumeSubheading
+      {Venture Capital Intern}{June -- Aug 2022}
+      {Insure and Match Ventures}{Beirut, Lebanon}
+      \resumeItemListStart
+        \resumeItem{Automated KPI reporting (PowerBI) and built a lead-scoring model; emphasized data quality, latency, and reproducibility.}
+        \resumeItem{Increased team's deal sourcing efficiency by \textbf{30\%} by creating a relational database and statistical models to score and rank over 1,000 inbound leads.}
+      \resumeItemListEnd
+\resumeSubHeadingListEnd
+
+%-----------TECHNICAL SKILLS-----------
+\section{Technical Skills}
+\begin{itemize}[leftmargin=0.15in, label={}]
+  \small{\item{
+    \textbf{Programming:} \quad \textbf{C++}, \textbf{Python}, Julia, C, SQL, Java, JavaScript \\
+    \textbf{Numerical/ML:} \quad CVXPY, NumPy, Pandas, PyTorch, scikit-learn, TensorFlow, Matplotlib \\
+    \textbf{Systems/Tools:} \quad Git, Docker, CUDA, Linux, Next.js/React, Django, PowerBI, \LaTeX \\
+    \textbf{Languages:} \quad English, French, Arabic, Italian (working)
+  }}
+\end{itemize}
+\vspace{-8pt}
+
+\end{itemize}
+
+\end{document}
